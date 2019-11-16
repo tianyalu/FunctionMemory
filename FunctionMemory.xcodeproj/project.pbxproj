@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		94E51524237FEF8D001844D0 /* FunctionMemory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FunctionMemory; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E51527237FEF8D001844D0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		94E5152F237FEFCA001844D0 /* c_memory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c_memory.png; sourceTree = "<group>"; };
+		94E51530237FEFCF001844D0 /* android_memory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = android_memory.png; sourceTree = "<group>"; };
+		94E51531237FEFD4001844D0 /* cplus_basic_data_type.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cplus_basic_data_type.png; sourceTree = "<group>"; };
+		94E51532237FEFE2001844D0 /* func.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = func.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		94E5151B237FEF8D001844D0 = {
 			isa = PBXGroup;
 			children = (
+				94E5152E237FEFBB001844D0 /* show */,
 				94E51526237FEF8D001844D0 /* FunctionMemory */,
 				94E51525237FEF8D001844D0 /* Products */,
 			);
@@ -57,9 +62,20 @@
 		94E51526237FEF8D001844D0 /* FunctionMemory */ = {
 			isa = PBXGroup;
 			children = (
+				94E51532237FEFE2001844D0 /* func.h */,
 				94E51527237FEF8D001844D0 /* main.cpp */,
 			);
 			path = FunctionMemory;
+			sourceTree = "<group>";
+		};
+		94E5152E237FEFBB001844D0 /* show */ = {
+			isa = PBXGroup;
+			children = (
+				94E51531237FEFD4001844D0 /* cplus_basic_data_type.png */,
+				94E51530237FEFCF001844D0 /* android_memory.png */,
+				94E5152F237FEFCA001844D0 /* c_memory.png */,
+			);
+			path = show;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
