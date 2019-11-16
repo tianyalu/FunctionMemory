@@ -1,7 +1,7 @@
 ## FunctionMemory C/C++ 函数以及内存模型
 ### 一、C/C++函数
 #### 1.1 代码
-···c++
+```c++
 	#include <iostream>
 	#include "func.h"
 
@@ -32,7 +32,7 @@
 	    int *p = &b;
 	    return p;
 	}
-···
+```
 #### 1.2 基本数据类型
 ![image](https://github.com/tianyalu/FunctionMemory/blob/master/show/cplus_basic_data_type.png)
 ### 二、内存模型
